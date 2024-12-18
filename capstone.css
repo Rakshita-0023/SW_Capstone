@@ -1,0 +1,263 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fffbfb;
+  }
+
+  header {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-div{
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  main .hero {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  main .hero h2 {
+    font-size: 36px;
+    margin-bottom: 0px;
+    width: 1344px;
+    height: 240px;
+    font-family:'Red Hat Display', sans-serif;
+    font-size: 120px;
+    font-weight: 500;
+    line-height: 120px;
+    text-align: center;
+    letter-spacing: -2%;
+
+}
+  
+  main .hero .image-container img {
+    width: 1440px;
+    height: 785px;
+    border: 1.5px solid black;
+    
+  }
+  
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  
+  }
+  
+  .projects .project {
+    text-align: center;
+    
+  }
+  
+  .projects .project img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 0px;
+  }
+  
+  .description {
+    text-align: center;
+    margin: 40px 20px;
+  }
+.personal{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    width: 50%;
+}
+.what-i-do-text{
+    width: 50%;
+    text-align: left;
+    font-family: 'Red Hat Display', sans-serif ;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 52px;
+    letter-spacing: -1%;
+    color: #FFFFFF;
+    ;
+}
+.container .row{
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: normal;
+  font-family: 'Inria Sans';
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+  .ic1 {
+    text-align: center;
+    margin: 40px 20px;
+  }
+  
+  .ic1 form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+
+  .input{
+    width: 56px;
+    height: 64px;
+    border: 2px solid #00000029;
+    border-radius: 8px;
+    padding: 8px 16px 8px 16px;
+}
+.input p{
+    width: 13px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Inria Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF 36%;
+}
+.input-container{
+    width: 56px fixed;
+    height: 64px;
+    gap: 12px;
+    display: flex;
+    border-top: 1.5px;
+    padding: 8px 16px 8px 16px;
+    border: 1.5px;
+    border-radius: 8px;
+}
+
+.description p{
+    width: 900px;
+    height: 208px;
+    max-width: 900px;
+    line-height: 52px;
+    letter-spacing: -1%;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+    font-family:  'Red Hat Display', sans-serif;
+    color: #FFFFFF;
+    margin-left: 300px;
+    
+}
+
+.text-container{
+    width: 1344px;
+    height: 200px;
+    padding: 48px 0px;
+    gap: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.text-text{
+    width: 624px;
+    height: 52px;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -1%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-right: 300px;
+    
+}
+.text-div p{
+    width: 624px;
+    height: 64px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.5%;
+    font-size: 24px;
+    color:#FFFFFF;
+    margin-left: 20px;
+    text-align: left;
+}
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #121212;
+  }
+
+
+  div {
+    background-color: black;
+  }
+
+.submit{
+    width: 400px;
+    height: 36px;
+    border-radius: 8px;
+    padding: 8px 16px 8px 16px;
+    background-color:#C11D1D;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Inria Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.skip{
+    width: 29px;
+    height: 20px;
+    font-family: 'Inria Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ed5a5a;
+    align-items: center;
+    
+}
+
+.sub{
+    width: 416px;
+    height: 24px;
+    font-family: 'Inria Sans', sans-serif ;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color:  #FFFFFF99;
+
+
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
