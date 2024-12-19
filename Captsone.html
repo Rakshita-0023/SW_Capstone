@@ -7,37 +7,28 @@
   <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Red+Hat+Display:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body style="background-color: black;">
-  <header style="background-color: black;">
-    <nav>
-      <div class="nav-div">
-        <h1>RetroWave</h1>
-      <ul>
-        <li>
-          <a href="#" class="active">Home</a>
-        </li>
-        <li>
-          <a href="#">Projects</a>
-        </li>
-        <li>
-          <a href="#">Blog</a>
-        </li>
-        <li>
-            <a href="#">Contact</a>
-        </li>
-      </ul>
-      </div>
-    </nav>
-  </header>
+  <header>
+    <div class="navbar">
+        <div class="logo">RETROWAVE</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#">Project</a>
+            <a href="#">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+<hr>
 
   <main>
-    <section class="hero">
+    <div class="hero">
       <h2>Welcome to the Neon Future</h2>
       <div class="image-container">
         <img src="567b61bcdf624b067654436c79be4900.png" alt="Futuristic Circuit Design">
       </div>
-    </section>
+    </div>
 
-    <section class="projects">
+    <div class="projects">
       <div class="project">
         <img src="pic1.png" alt="AI-Powered Analytics">
         <p>Project Neon<br>
@@ -92,9 +83,9 @@
             <span class="sub">VR Design</span>
         </p>
       </div>
-    </section>
+    </div>
 
-    <section class="description">
+    <div class="description">
       <p>
         A passionate designer bringing the 80s synthwave aesthetic to the digital age. 
         Let's create something vibrant and unique 
@@ -105,23 +96,23 @@
         <span>What I Do</span>
       </div>
       <div class="container">
-        <div class="row 1">
+        <div class="row">
             <span>Web Design </span>
             <span>Mobile App Design</span>
         </div>
-        <div class="row 2">
+        <div class="row">
             <span>Graphic Design</span>
             <span>UI/UX Design</span>
         </div>
-        <div class="row 3">
+        <div class="row">
             <span>Animation</span>
             <span>Branding</span>
         </div>
-        <div class="row 4">
+        <div class="row">
             <span>Photography</span>
             <span>Illustration</span>
         </div>
-        <div class="row 5">
+        <div class="row">
             <span>VR Design</span>
         </div>
       </div>
@@ -134,46 +125,36 @@
                 <p class="div-text">Feel free to reach out for collaborations or just a friendly chat.</p>
             </div>
         </div>
-    </section>
+      </div>
+      <hr>
 
     <div class="divider"></div>
-                <div class="verification-input">
-                    <div class="main-container">
-                        <div class="instruction-container">
-                            <p class="ic1">Contact Me</p>
-                        </div>
-                        <div class="input-container">
-                            <div class="input">
-                                <p>0</p>
-                            </div>
-                            <div class="input">
-                                <p>0</p>
-                            </div>
-                            <div class="input">
-                                <p>0</p>
-                            </div>
-                            <div class="input">
-                                <p>0</p>
-                            </div>
-                            <div class="input">
-                                <p>0</p>
-                            </div>
-                        </div>
-                        <button class="submit">Send Message</button>
-                        <p class="skip">Skip</p>
-                    </div>
-                </div>
-            </div>
+    <div class="c">
+      <div class="contact-form" id="cnt">
+        <div class="inst">
+        <h2 class="contact-title">Contact Me</h2>
         </div>
-
+        <div class="contact-inputs">
+          <input type="text" maxlength="1" class="contact-input" placeholder="0">
+          <input type="text" maxlength="1" class="contact-input" placeholder="0">
+          <input type="text" maxlength="1" class="contact-input" placeholder="0">
+          <input type="text" maxlength="1" class="contact-input" placeholder="0">
+          <input type="text" maxlength="1" class="contact-input" placeholder="0">
+        </div>
+        <button class="message">Send Message</button>
+        <a href="#" class="contact-skip">Skip</a>
+        </div>
+        
   </main>
 
-  <footer>
-    <div class="footer-container">
-        <p class="pagelink">©️ 2024 RetroWave</p>
-        <button>Follow Me</button>
+  <div class="footer">
+    <div class="footer-text">
+        <p>&copy; 2024 RetroWave</p>
     </div>
-</footer>
+    <div class="follow">
+        <button class="Follow-me">Follow Me</button>
+    </div>
+</div>
 
 </body>
 </html>
